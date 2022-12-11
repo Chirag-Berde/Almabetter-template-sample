@@ -1,0 +1,93 @@
+/* logo css */
+.alma{
+    height: 28px;
+    width: 100px;
+}
+.alma:hover{
+   transform: translateY(-2px);  
+}
+/* navbar custom css */
+.education:hover{
+    color: red;
+    font-weight: 500;
+    transform: translateY(-2px);
+}
+.button:hover{
+    background-color: transparent;
+    color: red;
+    transform: translateY(-2px);
+}
+/* content css */
+.heading{
+    margin-top: 94px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 42px;
+}
+.learning{
+    margin: 0 2px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.web3{
+    margin-top: 90px;
+    width: 100%;
+    height: 480px;
+    border-radius: 10px;
+}
+.web3:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.explore{
+    margin-top: 15px;
+    padding: 11px 48px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.explore:hover{
+    transform: translateY(-2px);
+    box-shadow: 10px 10px 5px lightgoldenrodyellow;
+}
+/* about css */
+.para{
+    margin-top: 15px;
+    font-size: 1.125rem;
+}
+.salary{
+    width: 450px;
+    height: 550px;
+}
+.salary:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+/* companies css */
+.placement{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+/* hire from us css */
+.almabetter{
+    margin-left: 50px;
+    padding: 10px 20px;
+}
+.almabetter:hover{
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+/* footer css */
+.footer{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer p:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
