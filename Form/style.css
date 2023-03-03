@@ -1,0 +1,57 @@
+/* form container css */
+.form-container{
+    margin-top: 30px;
+}
+/* form image css */
+.form-image{
+    height: 500px;
+    width: 490px;
+    border-radius: 10px;
+}
+.form-image:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+/* button css */
+.btn-login{
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+/* google btn */
+.fa-google{
+    padding-left: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* button background css */
+.btn{
+    background-color: rgb(247, 244, 239);
+    border-radius: 0px;
+}
+/* or word css */
+.or-sign{
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 15px;
+}
+/* form css */
+.reduce-form-size{
+     width: 90%;
+     margin-left: 20px;
+}
+/* last section css */
+.blue-color{
+    color: blue;
+}
+/* sign up btn css */
+.sign-up-btn{
+    color: white;
+    background-color: black;
+    width: 90% ;
+    margin-left: 50px;
+    font-weight: bold;
+    padding: 15px;
+}
