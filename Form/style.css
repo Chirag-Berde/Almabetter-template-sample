@@ -1,19 +1,22 @@
 /* form container css */
-.form-container{
+.form-container {
     margin-top: 30px;
 }
+
 /* form image css */
-.form-image{
+.form-image {
     height: 500px;
     width: 490px;
     border-radius: 10px;
 }
-.form-image:hover{
+
+.form-image:hover {
     cursor: pointer;
     transform: translateY(-2px);
 }
+
 /* button css */
-.btn-login{
+.btn-login {
     padding-right: 55px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -21,37 +24,82 @@
 }
 
 /* google btn */
-.fa-google{
+.fa-google {
     padding-left: 55px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 /* button background css */
-.btn{
+.btn {
     background-color: rgb(247, 244, 239);
     border-radius: 0px;
 }
+
 /* or word css */
-.or-sign{
+.or-sign {
     display: inline-block;
     margin: 0 40px;
     font-size: 15px;
 }
+
 /* form css */
-.reduce-form-size{
-     width: 90%;
-     margin-left: 20px;
+.reduce-form-size {
+    width: 90%;
+    margin-left: 20px;
 }
+
 /* last section css */
-.blue-color{
+.blue-color {
     color: blue;
 }
+
 /* sign up btn css */
-.sign-up-btn{
+.sign-up-btn {
     color: white;
     background-color: black;
-    width: 90% ;
+    width: 90%;
     margin-left: 50px;
     font-weight: bold;
     padding: 15px;
+}
+
+/* media queries for mobile */
+@media only screen and (max-width: 767px) {
+    .form-image {
+        width: 90%;
+        height: 100%;
+        margin: 0 20px;
+    }
+
+    .second-col {
+        margin-top: 42px;
+    }
+
+    .or-div {
+        display: none;
+    }
+
+    .reduce-form-size,
+    .another-section .form-check,
+    .sign-up-btn {
+        margin-left: 25px !important;
+    }
+
+}
+
+/* media queries for tablet */
+@media only screen and (min-width: 768px) and (max-width:1199px) {
+    .or-div {
+        display: none;
+    }
+    .form-image{
+        width: 70%; 
+        margin-left: 14%;
+    }
+    .second-col{
+        margin-top: 5%;
+        padding:  0 62px;
+    }
+
 }
