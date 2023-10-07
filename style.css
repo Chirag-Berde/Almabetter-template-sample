@@ -1,93 +1,156 @@
 /* logo css */
-.alma{
+.alma {
     height: 28px;
     width: 100px;
 }
-.alma:hover{
-   transform: translateY(-2px);  
+
+.alma:hover {
+    transform: translateY(-2px);
 }
+
 /* navbar custom css */
-.education:hover{
+.education:hover {
     color: red;
     font-weight: 500;
     transform: translateY(-2px);
 }
-.button:hover{
+
+.button:hover {
     background-color: transparent;
     color: red;
     transform: translateY(-2px);
 }
+
 /* content css */
-.heading{
+.heading {
     margin-top: 94px;
     padding-bottom: 10px;
     margin-bottom: 0px;
     font-size: 42px;
 }
-.learning{
+
+.learning {
     margin: 0 2px;
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
-.web3{
+
+.web3 {
     margin-top: 90px;
     width: 100%;
     height: 480px;
     border-radius: 10px;
 }
-.web3:hover{
+
+.web3:hover {
     cursor: pointer;
     transform: translateY(-2px);
     box-shadow: 10px 10px 5px lightblue;
 }
 
-.explore{
+.explore {
     margin-top: 15px;
     padding: 11px 48px;
     font-weight: 500;
     font-size: 18px;
 }
-.explore:hover{
+
+.explore:hover {
     transform: translateY(-2px);
     box-shadow: 10px 10px 5px lightgoldenrodyellow;
 }
+
 /* about css */
-.para{
+.para {
     margin-top: 15px;
     font-size: 1.125rem;
 }
-.salary{
+
+.salary {
     width: 450px;
     height: 550px;
 }
-.salary:hover{
+
+.salary:hover {
     cursor: pointer;
     transform: translateY(-2px);
 }
+
 /* companies css */
-.placement{
+.placement {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.4em;
 }
+
 /* hire from us css */
-.almabetter{
+.almabetter {
     margin-left: 50px;
     padding: 10px 20px;
 }
-.almabetter:hover{
+
+.almabetter:hover {
     cursor: pointer;
     transform: translateY(-4px);
 }
+
 /* footer css */
-.footer{
+.footer {
     background-color: black;
     padding-top: 20px;
     padding-bottom: 10px;
     color: white;
 }
-.footer p:hover{
+
+.footer p:hover {
     cursor: pointer;
     transform: translateY(-2px);
+}
+
+/* media queries for mobile */
+
+@media only screen and (max-width: 767px) {
+    .heading {
+        margin-top: 56px;
+        text-align: center;
+    }
+    .learning{
+        text-align: center;
+    }
+    .explore{
+        width: 100%;
+    }
+    .learning br,
+    #about .para br {
+        display: none;
+    }
+
+    .web3 {
+        margin-top: 30px;
+        height: auto;
+    }
+
+    #about .heading br {
+        display: none;
+    }
+    #about .para {
+        text-align: center;
+    }
+    #about .heading{
+        margin-top: 0;
+        text-align: center;
+    }
+    .salary{
+        height: auto;
+    }
+    #company{
+        margin-top: 0 !important;
+    }
+    #company .row{
+      text-align: center;
+    }
+    .almabetter{
+        margin-left: 0;
+    }
 }
