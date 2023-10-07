@@ -154,3 +154,37 @@
         margin-left: 0;
     }
 }
+
+/* media queries for tablet */
+@media only screen and (min-width: 768px) and (max-width:1199px){
+    .navbar form{
+       padding-left: 40%;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .learning br{
+        display: none;
+    }
+    .learning{
+        font-size: 20px;
+    }
+    .web3{
+        height: auto;
+    }
+    #about .heading br{
+        display: none;
+    }
+    #about .heading{
+        font-size: 32px;
+    }
+    #about .para br{
+    display: none;
+    }
+    .salary{
+        height: auto;
+    }
+    .almabetter{
+        margin-left: 0;
+    }
+}
