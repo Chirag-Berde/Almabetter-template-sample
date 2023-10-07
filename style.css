@@ -7,6 +7,13 @@
 .alma:hover {
     transform: translateY(-2px);
 }
+.signUp a{
+    text-decoration: none;
+    color: green;
+}
+.signUp a:hover{
+    color: white;
+}
 
 /* navbar custom css */
 .education:hover {
@@ -16,8 +23,6 @@
 }
 
 .button:hover {
-    background-color: transparent;
-    color: red;
     transform: translateY(-2px);
 }
 
